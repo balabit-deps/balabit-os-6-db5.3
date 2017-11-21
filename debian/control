@@ -1,7 +1,8 @@
 Source: db5.3
 Section: libs
 Priority: standard
-Maintainer: Debian Berkeley DB Group <pkg-db-devel@lists.alioth.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Berkeley DB Group <pkg-db-devel@lists.alioth.debian.org>
 Uploaders: Ondřej Surý <ondrej@debian.org>, Dmitrijs Ledkovs <xnox@debian.org>
 Standards-Version: 3.9.6
 # For cross building one also needs tcl8.4:native (ie. such that it

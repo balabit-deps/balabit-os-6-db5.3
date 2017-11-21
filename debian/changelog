@@ -1,3 +1,11 @@
+db5.3 (5.3.28-11ubuntu0.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Berkeley DB reads DB_CONFIG from cwd
+    - debian/patches/CVE-2017-10140.patch in src/env/env_open.c.
+    - CVE-2017-10140
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Tue, 21 Nov 2017 11:09:30 -0300
+
 db5.3 (5.3.28-11) unstable; urgency=medium
 
   * Fix gitweb URL (Closes: #793114)
