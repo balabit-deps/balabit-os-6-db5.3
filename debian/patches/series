@@ -7,3 +7,4 @@
 mmap_extend-mode-requires-page-aligned-extends.patch
 008-autoconf-in-lang-sql-sqlite.patch
 CVE-2017-10140.patch
+CVE-2019-8457.patch

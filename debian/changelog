@@ -1,3 +1,12 @@
+db5.3 (5.3.28-11ubuntu0.2) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Heap out-of-bounds read
+    - debian/patches/CVE-2019-8457.patch: enhance the rtreenode
+      function in lang/sql/sqlite/ext/rtree/rtree.c.
+    - CVE-2019-8457
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Mon, 03 Jun 2019 11:41:41 -0300
+
 db5.3 (5.3.28-11ubuntu0.1) xenial-security; urgency=medium
 
   * SECURITY UPDATE: Berkeley DB reads DB_CONFIG from cwd
